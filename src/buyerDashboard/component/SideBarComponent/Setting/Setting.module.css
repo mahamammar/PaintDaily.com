@@ -1,0 +1,34 @@
+.ScrollBar::-webkit-scrollbar{
+    width: 20px;
+}
+.ScrollBar::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+.ScrollBar::-webkit-scrollbar-thumb{
+    background-color: #737cff;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+.ScrollBar::-webkit-scrollbar-thumb:hover{
+    background-color: #737cff;
+}
+.uploadbox{
+    font-size: 16px;
+    background: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px #eeeeee;
+    width: 350px;
+    outline: none;
+}
+::-webkit-file-upload-button{
+    color: white;
+    background: #206a5d;
+    padding: 5px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+}
+::-webkit-file-upload-button:hover{
+    background: #438a5e;
+}

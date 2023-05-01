@@ -1,0 +1,82 @@
+.product_side{
+    position: absolute;
+    top: 144%;
+    left: 24%;
+    width: 73%;
+    display: flex;
+}
+.prod{
+    width: 23rem;
+    margin: 1% 1.2%;
+    height: 18rem;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 0.4rem;
+    background-color: rgba(255, 255, 255, 0.329);
+}
+.prod_title p:hover{
+    text-decoration: underline;
+}
+.pimage{
+    margin-top: 1%;
+    width: 100%;
+    height: 600px;
+}
+.pheading{
+    font-size: 80px;
+    font-family: 'Cookie', cursive;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 6%;
+}
+.image_box{
+    width: 100%;
+    height: 100%;
+}
+.image_box img{
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    margin-left: 6%;
+    margin-top: 10px;
+    margin-bottom: 0.9rem;
+    border-radius: 5px;
+}
+.prod_title{
+    padding-left: 4%;
+    
+}
+.code_color{
+    color: grey;
+    margin-left: 10%;
+    font-size: 16px;
+    font-weight: 600;
+}
+.prod_title p{
+    font-size: 14px;
+    font-weight: bold;
+    width: 120%;
+    margin-left: 1.5%;
+}
+.others{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -2%;
+    width: 120%;
+}
+.prod_reviews i{
+    color: #FDCC0D;
+    margin-right: 3px;
+    font-size: 16px;
+
+}
+.prod_reviews{
+    margin-left: 3%;
+}
+.prod_price{
+    font-weight: 600;
+    font-size: 18px;
+}
+Link{
+    color: black;
+}
+

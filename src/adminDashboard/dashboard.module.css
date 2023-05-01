@@ -1,0 +1,31 @@
+:root{
+    --white: #ffffff;
+    --lightBlue: #3071E7;
+    --light: #A6B2EC;
+    --darkNavi: #080c25;
+    --dark:#161E35;
+}
+
+.App{
+    /*background: linear-gradient(*/
+    /*106.37deg,*/
+    /*#A6B2FC 29.36%,*/
+    /*#9ca5cd 51.55%,*/
+    /*#A6B2FC 90.85%*/
+    /*);*/
+    background-color: #984fc2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+.AppGlass{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    /* border-radius: 2rem; */
+    background-color: var(--white);
+    overflow: hidden;
+    grid-template-columns: 11rem auto;
+}

@@ -1,0 +1,15 @@
+.ScrollBar::-webkit-scrollbar{
+    width: 20px;
+}
+.ScrollBar::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+.ScrollBar::-webkit-scrollbar-thumb{
+    background-color: #013A43;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+.ScrollBar::-webkit-scrollbar-thumb:hover{
+    background-color: #016a79;
+}

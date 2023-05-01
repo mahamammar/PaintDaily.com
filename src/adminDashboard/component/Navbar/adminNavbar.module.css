@@ -1,0 +1,38 @@
+.Main{
+    margin-top: 50px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+}
+.LoginBtn:hover{
+    background-color: #d0d0d0;
+    cursor: pointer;
+}
+.Content{
+    position: relative;
+    display: block;
+}
+.Profile{
+    height:50px;
+    width: 50px;
+    position:relative;
+    left:150px;
+    cursor:pointer;
+}
+.dropdownContent{
+    height:140px;
+    width:150px;
+    background-color: white;
+    position:absolute;
+    display: none;
+    top:50px;
+    z-index:35;
+    left:100px;
+    border-radius:4px;
+
+}
+.Content:hover .dropdownContent{
+    display: block;
+    /*top:100px;*/
+}

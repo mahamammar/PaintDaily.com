@@ -1,0 +1,26 @@
+.ppolicy{
+    background: linear-gradient(-30deg, #f8f6d1, rgb(253, 233, 233), #eaf4f8, #fce1fc, #e4eff5);
+
+}
+h1.policy_heading{
+    font-size: 50px;
+    margin-top: 3%;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 8%;
+    background-color: #7f4a81;
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 20px;
+    color: white;
+}
+.privacy_policy_container{
+    margin-bottom: 50px;
+}
+h3.H3{
+    color: black;
+    font-size: 24px;
+}
+.empty{
+    height: 100px;
+}

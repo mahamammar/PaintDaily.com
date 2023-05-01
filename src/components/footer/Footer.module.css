@@ -1,0 +1,61 @@
+.footer {
+    background-color: #7f4a81;
+    min-height: 350px;
+    height: 400px;
+    margin-top: -2%;
+}
+.row1 {
+    display: flex;
+    padding-top: 45px;
+}
+.row1 div {
+    margin-right: 70px;
+}
+.social_media{
+    margin-left: 4%;
+}
+.social_media_icons{
+    display: flex;
+}
+.social_media img {
+    height: 30px;
+    padding-right: 10px;
+    display: inline-block;
+}
+.footer_logo {
+    margin-left: 40px;
+}
+.quick_links {
+    margin-right: 80px;
+}
+h3 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+
+a:hover {
+    color: #01a2bb;
+}
+.row2{
+    background-color: #013A43;
+    color: white;
+    text-align: center;
+}
+.copy_right {
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 120px;
+    font-size: 19px;
+}
+.adr{
+    font-size: 19px;
+    color: white;
+}

@@ -1,0 +1,73 @@
+.main {
+    background: url("../../assets/Images/login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 140vh;
+    width: 100%;
+}
+.container{
+
+    display: flex;
+   justify-content: center;
+
+}
+.form{
+    background-color: #fff;
+    height: 420px;
+    width: 700px;
+    margin-top: 5%;
+    border: 1px solid #7EA860;
+    margin-left: 55%;
+   margin-right: 8%;
+   margin-bottom: 60px;
+}
+
+.form h2{
+    font-weight: 300;
+    font-size: 32px;
+    padding-top: 27px;
+    margin-bottom: 45px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+}
+.form_lbl{
+    width: 180px;
+    margin-left: 40px;
+    font-size: 18px;
+}
+.form_input{
+    width: 250px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.submit_btn{
+    width: 96%;
+    padding: 10px;
+    background: linear-gradient(to right, #00b09b, #96c93d);
+    color: white;
+    border: 1px solid #00b09b;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+.err_msgs{
+    margin-left: 220px;
+    color: rgb(239, 1, 1);
+    font-size: 15px;
+    margin-bottom: -40px;
+    margin-top: 4px;
+}
+
+
+.create_acc{
+    display: flex;
+    margin-left: 145px;
+    margin-top: 12px;
+    font-size: 17px;
+}
+
+

@@ -1,0 +1,106 @@
+.main {
+  /* background: url("../../assets/Images/login.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 160vh;
+  width: 100%;
+  background: rgb(247, 247, 247);
+
+}
+.give_review_pg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2.review_heading{
+  margin-left: 460px;
+  margin-top: 40px;
+  background: #7e0285;
+  color: white;
+  margin-right: 460px;
+  padding: 16px;
+  text-align: center;
+  border-radius: 5px;
+
+}
+.give_review{
+  border: 1px solid rgb(87, 87, 87);
+  width: 600px;
+  height: 660px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 120px;
+  background: rgb(247, 247, 247);
+  border-radius: 3px;
+}
+label.type_review{
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* margin-left: 0px; */
+}
+.dropbtn {
+  background-color: #7e0285;
+  color: white;
+  padding: 16px 26px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 60px;
+  /* margin-bottom: 10px; */
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown_content li {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown_content li:hover {background-color: #f0bbf3;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown_content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #7e0285;
+}
+.post_rev{
+  background-color: #730279;
+  padding: 12px 38px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin-top: 14px;
+  margin-left: 28px;
+  font-weight: 600;
+}

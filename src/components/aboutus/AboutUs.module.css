@@ -1,0 +1,217 @@
+
+.about_us_page{
+    background-color: rgb(255, 241, 202);
+}
+.img {
+  height: 600px;
+  width: 100%; 
+  
+}
+main .sectionTwo{
+    float: left;
+}
+.header {
+    display: block;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    position: absolute;
+    top: 48%;
+    left: 42%;
+}
+
+main.sectionOne, .sectionTwo{
+    display: flex;
+}
+.Para {
+    display: flex;
+    text-align: justify;
+    width: 100%;
+    font-size: 16px;
+
+}
+.sectionOne {
+    height: 100%;
+    margin: 50px 0;
+    margin-bottom: 60px;
+    padding: 40px 60px;
+    display: flex;
+}
+.sectionTwo {
+    margin: 50px 0;
+    width: 100%;
+    padding: 20px 40px;
+    margin-bottom: 70px;
+}
+.mainText {
+    width: 50%;
+    margin: 30px 30px 30px 0px;
+}
+.mainText2{
+    width: 50%;
+    margin: 30px 30px 30px 140px;
+}
+img.image {
+    height: 400px;
+    margin-top: 60px;
+    width: 90%;
+    border-radius: 10px;
+    border: 1px solid rgb(136, 136, 136);
+}
+img.image2 {
+    height: 400px;
+    margin-top: 60px;
+    width: 110%;
+    border-radius: 10px;
+    margin-left: 4%;
+    border: 1px solid rgb(136, 136, 136);
+}
+.aboutusdiv{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+main .sectionTwo{
+    float: none;
+}
+h2.about_us_heading{
+    font-size: 85px;
+    font-family: 'Cookie', cursive;
+    text-align: center;
+    margin-top: 8%;
+    padding: 30px 0;
+    margin-bottom: 3%;
+    width: 100%;
+    background-color: rgb(241, 179, 243);
+}
+.empty{
+    height: 100px;
+}
+@media only screen and (max-width: 600px) and (min-width: 400px)  {
+    .image {
+        height: 300px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .img {
+        height: 400px;
+        width: 100%;
+
+    }
+    .header {
+        display: block;
+        /* color: white; */
+        color: black;
+        font-size: 60px;
+        font-weight: 700;
+        position: absolute;
+        top: 39%;
+        left: 27%;
+    }
+    .sectionOne {
+        height: 100%;
+        float: right;
+        margin: 50px 0;
+        margin-bottom: 60px;
+        padding: 20px 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .mainText {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+    .sectionTwo {
+        float: right;
+        margin: 50px 0;
+        width: 100%;
+        padding: 20px 40px;
+        margin-bottom: 70px;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 767.98px) and (min-width: 600px)  {
+    .image {
+        height: 500px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .header {
+        display: block;
+        color: white;
+        font-size: 60px;
+        font-weight: 700;
+        position: absolute;
+        top: 48%;
+        left: 35%;
+    }
+    .sectionOne {
+        height: 100%;
+        float: right;
+        margin: 50px 0;
+        margin-bottom: 60px;
+        background-color: #ffcbc8;
+        padding: 20px 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .mainText {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+    .sectionTwo {
+        float: right;
+        margin: 50px 0;
+        width: 100%;
+        background-color: #e5fabd;
+        padding: 20px 40px;
+        margin-bottom: 70px;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 991.98px) and (min-width: 767.98px)  {
+    .image {
+        height: 500px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .header {
+        display: block;
+        color: white;
+        font-size: 60px;
+        font-weight: 700;
+        position: absolute;
+        top: 48%;
+        left: 41%;
+    }
+
+    .sectionOne {
+        height: 100%;
+        float: right;
+        margin: 50px 0;
+        margin-bottom: 60px;
+        background-color: #ffcbc8;
+        padding: 20px 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .mainText {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+    .sectionTwo {
+        float: right;
+        margin: 50px 0;
+        width: 100%;
+        background-color: #e5fabd;
+        padding: 20px 40px;
+        margin-bottom: 70px;
+        flex-direction: column;
+    }
+}

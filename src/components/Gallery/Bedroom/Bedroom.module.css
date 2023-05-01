@@ -1,0 +1,14 @@
+.gallery{
+    margin: 50px 40px;
+    margin-bottom: 90px;
+    height: 700px;
+}
+.mid_text{
+    margin-top: 7%;
+    text-align: center;
+    font-size: 85px;
+    margin-bottom: 4%;
+    font-family: 'Cookie', cursive;
+    background: linear-gradient(to right, #373b44, #4286f4);
+    color: white;
+  }

@@ -1,0 +1,217 @@
+.main {
+    background: url("../../assets/Images/login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    width: 100%;
+}
+.container{
+
+    display: flex;
+   justify-content: center;
+
+}
+.shippingAddress{
+    display:block;
+    margin-top: -50px;
+    margin-left: 28px;
+    font-size: 20px;
+}
+.form{
+    background-color: #fff;
+    height: 480px;
+    width: 750px;
+    margin-top: 5%;
+    border: 1px solid #7EA860;
+    margin-left: 55%;
+   margin-right: 8%;
+}
+
+.form h2{
+    font-weight: 300;
+    font-size: 32px;
+    padding-top: 27px;
+    margin-bottom: 28px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+}
+label{
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-left: 25px;
+}
+.input_field label, input{
+    margin: 0px;
+    padding: 0px;
+}
+.input_field{
+    margin-left: 25px;
+    margin-bottom: 0px;
+    display: flex;
+}
+.input_field label{
+    width: 160px;
+
+}
+.input_field input{
+    float: left;
+    padding: 8px;
+    width: 270px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #7c7c7c;
+}
+.input_field input{
+    outline: none;
+    float: none;
+    margin-right: 10px;
+}
+button.signup{
+    border-radius: 5px;
+    padding: 12px 20px;
+    background-color: #426329;
+    background: linear-gradient(to right, #03d8bf, #a7e043);
+    color: #fff;
+    border: none;
+    margin-left: 0;
+    margin: 0 24px;
+    width: 90%;
+    margin-top: -17px;
+    transition: all 0.2s ease-in;
+    margin-left: 24px;
+    margin-bottom: 0px;
+}
+button.signup{
+    font-size: 19px;
+}
+button.signup:hover {
+    height: 100%;
+    color: #fff;
+    /* background-color: #588336; */
+    /* border: 2px solid #588336; */
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-bottom: 0;
+    margin-top: -10px;
+}
+.checkbox a{
+
+    color: blue;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+.checkbox a:hover{
+    text-decoration: underline;
+}
+.checkbox p{
+    width: 100%;
+    margin-left: 10px;
+    font-size: 16px;
+    padding-top: 15px;
+    height: 100%;
+}
+input[type="checkbox"]{
+    cursor: pointer;
+}
+p.option {
+    height: 100%;
+    padding-top: 0px;
+    text-align: center;
+    margin-top: 8px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.signup_btn {
+    /* color: #fff;
+    background-color: #426329;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 24px;
+    width: 90%;
+    transition: all 0.2s ease-in; */
+    width: 96%;
+    padding: 10px;
+    background: linear-gradient(to right, #00b09b, #96c93d);
+    color: white;
+    border: 1px solid #00b09b;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+.signup_btn:hover {
+    /* height: 100%; */
+    color: #fff;
+    background-color: #588336;
+    cursor: pointer;
+}
+p.login_opt{
+    margin-left: 25px;
+    margin-top: 15px;
+    text-align: center;
+
+}
+p.login_opt a{
+    display: block;
+    text-decoration: none;
+    color: blue;
+    margin-left: 5px;
+    display: inline-block;
+
+}
+p.login_opt a:hover{
+    color: blue;
+}
+
+.errorMessage{
+    color: red;
+    padding-left: 183px;
+
+}
+
+/*X-Small devices (portrait phones, less than 576px)*/
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+    .form{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 10%;
+        width: 350px;
+    }
+    .input_field{
+        margin-right: 5px;
+        display: flex;
+
+    }
+    .input_field input{
+        outline: none;
+        float: none;
+        margin-right: 15px;
+    }
+}
+/*Small devices (landscape phones, less than 768px)*/
+@media only screen and (max-width: 767.98px) and (min-width: 600px) {
+    .form{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 10%;
+
+    }
+}
+/*Medium devices (tablets, less than 992px)*/
+@media only screen and (max-width: 991.98px) and (min-width: 767.98px)  {
+    .form{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 80px;
+    }
+}
